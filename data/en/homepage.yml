@@ -246,7 +246,7 @@ portfolio:
     - name : "Ironman History"
       image : "images/portfolio/ironman.png"
       date : "2019  |  10"
-      client : "KaeoverMonday Challenge"
+      client : "MakeoverMonday Challenge"
       category : "Infographic" 
       
     - name : "Fuel Economy by Manufacturers"
