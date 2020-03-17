@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://data-vizard.netlify.com"
-title = "Cédric Scherer"
+title = "DataVizard&nbsp;&nbsp;•&nbsp;&nbsp;Cédric Scherer"
 #theme = "somrat"
 # disable language
 disableLanguages = [] # desable language from here
