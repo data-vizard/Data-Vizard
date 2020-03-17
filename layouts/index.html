@@ -62,8 +62,8 @@
         <div class="full-nav-holder">
           <div class="full-nav-content">
             <div class="name">
-              {{ with $data.homepage.fullscreen_nav.first_name }}<div class="first-name">{{ . }}</div>{{ end }}
               {{ with $data.homepage.fullscreen_nav.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
+              {{ with $data.homepage.fullscreen_nav.first_name }}<div class="first-name">{{ . }}</div>{{ end }}
             </div>
             <div class="fulscreen-nav">
               <ul class="list-inline fullscreen-nav-holder">
@@ -90,95 +90,6 @@
        End Header
     =============================== -->
 
-<!-- =============================
-      Start Menu
-    =============================== -->
-<section class="menu" id="menu">
-  <nav>
-    <!-- desktop-menu -->
-    <div class="menu-container">
-      <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
-        {{ range .Site.Menus.main }}
-        <li class="menu-item hvr-underline-from-left 1"><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-      <!-- Language List -->
-      {{- if .Site.IsMultiLingual }}
-      <select id="select-language" onchange="location = this.value;">
-        {{ $siteLanguages := .Site.Languages}}
-        {{ $pageLang := .Page.Lang}}
-        {{ range .Page.AllTranslations }}
-        {{ $translation := .}}
-        {{ range $siteLanguages }}
-        {{ if eq $translation.Lang .Lang }}
-        {{ $selected := false }}
-        {{ if eq $pageLang .Lang}}
-        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-        </option>
-        {{ else }}
-        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-      </select>
-      {{ end }}
-      <!-- /desktop-menu -->
-
-      <!-- mobile-menu -->
-      <div class="mobile-menu">
-        <a class="menu-link">
-          <div class="mobile-menu-nav">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </a>
-        <div class="mobile-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
-              src="{{ .Site.Params.logo_dark | absURL }}" alt="{{ .Site.Title }}"></a>
-        </div>
-        <div class="menu-slider">
-          <nav>
-            <ul class="mobile-menu-list">
-              {{ range .Site.Menus.main }}
-              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-            <!-- Language List -->
-            {{- if .Site.IsMultiLingual }}
-            <select class="ml-4" id="select-language" onchange="location = this.value;">
-              {{ $siteLanguages := .Site.Languages}}
-              {{ $pageLang := .Page.Lang}}
-              {{ range .Page.AllTranslations }}
-              {{ $translation := .}}
-              {{ range $siteLanguages }}
-              {{ if eq $translation.Lang .Lang }}
-              {{ $selected := false }}
-              {{ if eq $pageLang .Lang}}
-              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-              </option>
-              {{ else }}
-              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-              {{ end }}
-              {{ end }}
-              {{ end }}
-              {{ end }}
-            </select>
-            {{ end }}
-            <ul class="mobile-menu-icons list-inline">
-              {{ range .Site.Params.social }}
-              <li><a href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>
-              {{ end }}
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </nav>
-</section>
-<!-- =============================
-      End Menu
-    =============================== -->
 
 <!-- =============================
        Start About Me
@@ -208,46 +119,6 @@
     {{ end }}
     {{ end }}
 
-    <div class="row experience-skill">
-      {{ if $data.homepage.experience.enable }}
-      {{ with $data.homepage.experience }}
-      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <ul class="experience-chart">
-          {{ range .experience_list }}
-          <li>
-            <div class="single-experience">
-              <h4>{{ .name | markdownify }}</h4>
-              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
-              {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
-              {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-      {{ end }}
-
-      {{ if $data.homepage.skill.enable }}
-      {{ with $data.homepage.skill }}
-      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <div class="skill-progress-bar">
-          {{ range .skill_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            <span class="skill-bar-percent">{{ .parcentage }}</span>
-            <div class="skillbar" data-percent="{{ .parcentage }}">
-              <div class="skillbar-bar"></div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
   </div>
 </section>
 <!-- =============================
@@ -304,6 +175,7 @@
        End Services
     =============================== -->
 
+
 <!-- =============================
        Start Portfolio
     =============================== -->
@@ -354,6 +226,59 @@
        End Portfolio
     =============================== -->
 
+
+            <!-- =============================
+                   Start Experience
+                =============================== -->
+            <section class="experience" id="experience">
+              <div class="container">
+                <div class="row experience-skill">
+                  {{ if $data.homepage.experience.enable }}
+                  {{ with $data.homepage.experience }}
+                  <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
+                    <h3>{{ .title }}</h3>
+                    <ul class="experience-chart">
+                      {{ range .experience_list }}
+                      <li>
+                        <div class="single-experience">
+                          <h4>{{ .name | markdownify }}</h4>
+                          {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
+                          {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
+                          {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+                        </div>
+                      </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                  {{ end }}
+                  {{ end }}
+
+                  {{ if $data.homepage.skill.enable }}
+                  {{ with $data.homepage.skill }}
+                  <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
+                    <h3>{{ .title }}</h3>
+                    <div class="skill-progress-bar">
+                      {{ range .skill_list }}
+                      <div class="clearfix">
+                        <span class="skillbar-title">{{ .name }}</span>
+                        <span class="skill-bar-percent">{{ .perclabel }}</span>
+                        <div class="skillbar" data-percent="{{ .parcentage }}">
+                          <div class="skillbar-bar"></div>
+                        </div>
+                      </div>
+                      {{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                  {{ end }}
+                </div>
+              </div>
+            </section>
+            <!-- =============================
+                  End Experience
+                =============================== -->
+
+
 <!-- =============================
        Start Testimonials
     =============================== -->
@@ -379,20 +304,7 @@
         {{ end }}
         {{ end }}
 
-        {{ if $data.homepage.funfacts.enable }}
-        {{ with $data.homepage.funfacts }}
-        <div class="fun-facts wow fadeInUp" data-wow-duration="1.5s">
-          {{ range .funfacts_list }}
-          <div class="fun-fact-holder">
-            <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
-            <p class="fact-counter count" data-count="{{ .count }}">0</p>
-            <p>{{ .name }}</p>
-          </div>
-          {{ end }}
         </div>
-        {{ end }}
-        {{ end }}
-      </div>
     </div>
   </div>
 </section>
@@ -412,15 +324,15 @@
         <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
-              <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
+              <input class="form-control" type="text" name="username" id="username" placeholder="Your Name" required>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-6">
-              <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
+              <input class="form-control" type="email" id="email" name="email" placeholder="Your Email" required>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Do you need a service? You just want to say hello?&#10;Don't hesitate, contact me!"></textarea>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12 sub-button">
