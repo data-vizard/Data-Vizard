@@ -32,7 +32,7 @@ hero:
 fullscreen_nav:
   enable : true 
   bg_image : "images/backgrounds/DSC05097.jpg" 
-  first_name : "Data Visualization Specialist" 
+  first_name : "Data Visualization Specialist"
   last_name : "Cédric Scherer"
   
 
@@ -175,7 +175,7 @@ portfolio:
       image : "images/portfolio/bundesliga.png"
       date : "2020  |  01"
       client : "SWDChallenge"
-      category : "Map"
+      category : "Infographic"
       
     - name : "Extent of the Australian Bushfires"
       image : "images/portfolio/australian-fires.png"
@@ -241,7 +241,7 @@ portfolio:
       image : "images/portfolio/school-diversity.png"
       date : "2019  |  10"
       client : "TidyTuesday Challenge"
-      category : "Animation" 
+      category : "Map" 
       
     - name : "Ironman History"
       image : "images/portfolio/ironman.png"
@@ -253,7 +253,7 @@ portfolio:
       image : "images/portfolio/mpg-highway.gif"
       date : "2019  |  09"
       client : "TidyTuesday Challenge"
-      category : "Map" 
+      category : "Animation" 
       
     - name : "Nuclear Explosions"
       image : "images/portfolio/nuclear-stripes.png"
