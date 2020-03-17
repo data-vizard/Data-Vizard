@@ -1215,8 +1215,8 @@ ul.experience-chart h4 {
   display: inline-block;
   background: #09A361;
   border: 2px solid #09A361;
-  padding: 12px 20px;
-  border-radius: 25px;
+  padding: 12px 30px;
+  border-radius: 35px;
   transition: background 0.5s;
 }
 
@@ -1224,7 +1224,7 @@ ul.experience-chart h4 {
   background: transparent;
   color: #fff;
   border: 2px solid #fff;
-  padding: 12px 20px;
+  padding: 12px 30px;
 }
 
 /*--------------------------------
@@ -1297,10 +1297,10 @@ ul.experience-chart h4 {
 
 .portfolio-navigation li {
   cursor: pointer;
-  padding: 7px 14px;
+  padding: 7px 7px;
   border: 1.5px solid #6f6f6f;
   color: #6f6f6f;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 5px;
 }
 
@@ -1310,7 +1310,7 @@ ul.experience-chart h4 {
 }
 
 .portfolio .hvr-sweep-to-right:before {
-  background: #6f6f6f;
+  background: #09A361;
 }
 
 .portfolio .hvr-sweep-to-right.active:before {
@@ -1326,8 +1326,8 @@ ul.experience-chart h4 {
 }
 
 .filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(150px);
-  transform: translateX(150px);
+  -webkit-transform: translateX(220px);
+  transform: translateX(220px);
   cursor: pointer;
 }
 
@@ -1345,33 +1345,44 @@ ul.experience-chart h4 {
   top: 24px;
   bottom: 0;
   left: 0;
-  width: 150px;
+  width: 220px;
   background: #313131;
-  -webkit-transform: translateX(-150px);
-  transform: translateX(-150px);
+  -webkit-transform: translateX(-220px);
+  transform: translateX(-220px);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .item-caption h2 {
-  font-size: 32px;
+  font-size: 22px;
   font-family: 'Prompt', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  padding-top: 5px;
   padding-left: 13px;
 }
 
 .item-caption p {
-  padding-left: 16px;
   font-family: 'Prompt', sans-serif;
+  color: #cecece;
   font-weight: 500;
+  padding-top: 13px;
+  padding-left: 18px;
+}
+
+.item-client p {
+  font-family: 'Prompt';
+  color: #cecece;
+  font-style: italic;
+  padding-top: 2px;
+  padding-left: 13px;
 }
 
 .item-created {
   text-decoration: none;
   position: absolute;
-  bottom: 16px;
+  bottom: 15px;
   left: 17px;
-  background: #6f6f6f;
+  background: #067344;
   padding: 5px 10px;
 }
 

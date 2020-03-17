@@ -188,7 +188,7 @@
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ .title }}</h1>
         <div class="filtering wow fadeInUp" data-wow-duration="1.5s">
           <ul class="portfolio-navigation">
-            <li data-filter="all" class="hvr-sweep-to-right active">All Items</li>
+            <li data-filter="all" class="hvr-sweep-to-right active">All</li>
             {{ $categories := slice }}
             {{ range .portfolio_list }}
             {{ $categories = $categories | append .category }}
@@ -208,7 +208,8 @@
                   <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
                 <div class="item-caption">
                   <h2>{{ .name | safeHTML }}</h2>
-                  <p>{{ .category | title }}</p>
+                  <p><i style='color:#09A361;'>{{ .client | title }}</i><br>
+                     {{ .category | title }}</p>
                   <div class="item-created">{{ .date }}</div>
                 </div>
               </a>

@@ -6,9 +6,9 @@ hero:
   occupations:
     - "Data Visualization"
     - "Mapping & Cartography"
-    - "Reproducible Analysis"
     - "Data Journalism"
     - "Information Design"
+    - "Reproducible Analyes"
     
   # slider background image loop
   slider_image:
@@ -41,7 +41,7 @@ about:
   enable : true
   image : "images/backgrounds/cedric_round.png"
   title : "DATA VISUALIZATION WITH PASSION & MAGIC"
-  content : "I am a computational ecologist and a data visualization specialist with more than 8 years of hypothesis-driven research experience and strong skills in data transformation, statistical analysis and data visualization. For all the steps involved I use mainly `R`, the `tidyverse` and `ggplot2`, ensuring a code-based and reproducible workflow.\n\nAs scientist, designer and consultant, my projects include static, animated and interactive visualizations, mapping techniques and infographic design to gain insights from complex data and communicate those to the world."
+  content : "I am a computational ecologist and a data visualization specialist with more than 8 years of hypothesis-driven research experience and strong skills in data transformation, statistical analysis and data visualization. For all the steps involved I use mainly `R`, the `tidyverse` and `ggplot2` to ensure high flexibility and a reproducible workflow.\n\nAs scientist, designer and consultant, my projects include static, animated and interactive visualizations, mapping techniques and infographic design to gain insights from complex data and communicate those findings to the world."
   # button
   button:
     enable : true
@@ -138,41 +138,63 @@ portfolio:
   enable : true
   title : "PORTFOLIO"
   portfolio_list:
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item1.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    #Animation, Data Art, Infographic, Workshop, Map
+    # portfolio item loop 
       
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item2.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "Food Carbon Footprint 2018"
+      image : "images/portfolio/foodprint-2018.png"
+      date : "2020  |  03"
+      client : "TidyTuesday Challenge"
+      category : "Infographic"
+    
+    - name : 'Data Visualization in R with ggplot2<br>(5 days)'
+      image : "images/portfolio/physalia-2020.png"
+      date : "2020  |  03"
+      client : "Physalia Courses"
+      category : "Workshop"
       
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item3.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "Security of the 500 Most Common Passwords"
+      image : "images/portfolio/passwords.png"
+      date : "2020  |  02"
+      client : "TidyTuesday Challenge"
+      category : "Data Art"
       
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item4.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "Tree Species in San Francisco"
+      image : "images/portfolio/trees-sf.png"
+      date : "2020  |  01"
+      client : "TidyTuesday Challenge"
+      category : "Map"
       
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item5.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "Extent of the Australian Bushfires"
+      image : "images/portfolio/australian-fires.png"
+      date : "2020  |  01"
+      client : "TidyTuesday Challenge"
+      category : "Map"
       
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item6.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "Leading Causes of Death Across the World"
+      image : "images/portfolio/global-mortality.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map" 
+      
+    - name : "Above-Ground Levels of All Buildings in Berlin"
+      image : "images/portfolio/berlin-buildings.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map" 
+      
+    - name : "Cellphone Attachment and Distraction"
+      image : "images/portfolio/phone-use.png"
+      date : "2019  |  08"
+      client : "MakeoverMonday Challenge"
+      category : "Infographic" 
+      
+    - name : "Fuel Economy by Manufacturers"
+      image : "images/portfolio/mpg-highway.gif"
+      date : "2019  |  10"
+      client : "TidyTuesday Challenge"
+      category : "Animation" 
+      
       
 
 ################################# Testimonial #########################33
