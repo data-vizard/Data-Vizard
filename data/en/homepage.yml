@@ -114,7 +114,7 @@ service:
       image : "images/icons/icon-dataviz3.png"
       
     # service item loop
-    - name : "Data Analysis"
+    - name : "Data Processing & Analysis"
       image : "images/icons/icon-code3.png"
       
     # service item loop
