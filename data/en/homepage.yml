@@ -54,25 +54,25 @@ experience:
   title : "CURRICULUM VITAE" 
   experience_list:
     # experience item loop
-    - name : "DATA VISUALISATION DESIGNER"
+    - name : "Data Visualization Designer"
       company : "Freelancing"
       duration : "(since 2020)"
       content : "Data Visualisation, Data Analysis, Statistical Modeling, Consulting, Workshops"
       
     # experience item loop 
-    - name : "PH.D. TRAINING / SCIENTIFIC RESEARCHER"
+    - name : "Ph.D. Training / Scientific Researcher"
       company : "Leibniz Institute for Zoo and Wildlife Research" 
       duration : "(since 2015)"
       content : "Data Analysis, Statistical and Agent-Based Modeling, Data Visualization"
       
     # experience item loop
-    - name : "SCIENTIFIC RESEARCHER" 
+    - name : "Scientific Researcher" 
       company : "University of Potsdam"
       duration : "(2014-2015)"
       content : "Data Analysis, Statistical and Agent-Based Modeling"
       
     # experience item loop
-    - name : "M.SC. STUDIES"
+    - name : "M.Sc. Studies"
       company : "University of Potsdam"
       duration : "(2011-2014)"
       content : "Ecology, Evolution & Nature Conservation with a Specialization in Theoretical and Computational Ecology"
