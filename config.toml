@@ -29,6 +29,8 @@ link = "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&d
 link = "https://fonts.googleapis.com/css?family=Prompt:300,400,500,700,900&display=swap" 
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700,900&display=swap"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Oswald:300,400,500,700,900&display=swap"
 
 # JS Plugins
 [[params.plugins.js]]

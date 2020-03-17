@@ -1297,11 +1297,11 @@ ul.experience-chart h4 {
 
 .portfolio-navigation li {
   cursor: pointer;
-  padding: 7px 7px;
+  padding: 3px 9px;
   border: 1.5px solid #6f6f6f;
   color: #6f6f6f;
   font-weight: 500;
-  margin: 0 5px;
+  margin: 2px 5px;
 }
 
 .portfolio-navigation li.active {
@@ -1326,8 +1326,8 @@ ul.experience-chart h4 {
 }
 
 .filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(220px);
-  transform: translateX(220px);
+  -webkit-transform: translateX(225px);
+  transform: translateX(225px);
   cursor: pointer;
 }
 
@@ -1345,43 +1345,38 @@ ul.experience-chart h4 {
   top: 24px;
   bottom: 0;
   left: 0;
-  width: 220px;
+  width: 225px;
   background: #313131;
-  -webkit-transform: translateX(-220px);
-  transform: translateX(-220px);
+  -webkit-transform: translateX(-225px);
+  transform: translateX(-225px);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .item-caption h2 {
   font-size: 22px;
-  font-family: 'Prompt', sans-serif;
-  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
   padding-top: 5px;
-  padding-left: 13px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
 .item-caption p {
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #cecece;
+  font-size: 16px;
   font-weight: 500;
-  padding-top: 13px;
-  padding-left: 18px;
-}
-
-.item-client p {
-  font-family: 'Prompt';
-  color: #cecece;
-  font-style: italic;
-  padding-top: 2px;
-  padding-left: 13px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
 .item-created {
   text-decoration: none;
   position: absolute;
-  bottom: 15px;
-  left: 17px;
+  bottom: 12px;
+  left: 10px;
   background: #067344;
   padding: 5px 10px;
 }

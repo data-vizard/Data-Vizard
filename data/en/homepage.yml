@@ -40,7 +40,7 @@ fullscreen_nav:
 about:
   enable : true
   image : "images/backgrounds/cedric_round.png"
-  title : "DATA VISUALIZATION WITH PASSION & MAGIC"
+  title : "DATA VISUALIZATION DESIGN WITH PASSION"
   content : "I am a computational ecologist and a data visualization specialist with more than 8 years of hypothesis-driven research experience and strong skills in data transformation, statistical analysis and data visualization. For all the steps involved I use mainly `R`, the `tidyverse` and `ggplot2` to ensure high flexibility and a reproducible workflow.\n\nAs scientist, designer and consultant, my projects include static, animated and interactive visualizations, mapping techniques and infographic design to gain insights from complex data and communicate those findings to the world."
   # button
   button:
@@ -141,17 +141,23 @@ portfolio:
     #Animation, Data Art, Infographic, Workshop, Map
     # portfolio item loop 
       
-    - name : "Food Carbon Footprint 2018"
+    - name : "Food Carbon Footprint Index 2018"
       image : "images/portfolio/foodprint-2018.png"
       date : "2020  |  03"
       client : "TidyTuesday Challenge"
       category : "Infographic"
     
-    - name : 'Data Visualization in R with ggplot2<br>(5 days)'
+    - name : 'Data Visualization in R with ggplot2 (5 days)'
       image : "images/portfolio/physalia-2020.png"
       date : "2020  |  03"
       client : "Physalia Courses"
       category : "Workshop"
+      
+    - name : "Hotel Bookings & Cancellations"
+      image : "images/portfolio/hotel-bookings.png"
+      date : "2020  |  02"
+      client : "TidyTuesday Challenge"
+      category : "Infographic"
       
     - name : "Security of the 500 Most Common Passwords"
       image : "images/portfolio/passwords.png"
@@ -163,6 +169,12 @@ portfolio:
       image : "images/portfolio/trees-sf.png"
       date : "2020  |  01"
       client : "TidyTuesday Challenge"
+      category : "Map"
+      
+    - name : "Performance of Bundesliga Clubs"
+      image : "images/portfolio/bundesliga.png"
+      date : "2020  |  01"
+      client : "SWDChallenge"
       category : "Map"
       
     - name : "Extent of the Australian Bushfires"
@@ -181,7 +193,73 @@ portfolio:
       image : "images/portfolio/berlin-buildings.png"
       date : "2019  |  11"
       client : "30DayMapChallenge"
+      category : "Map"
+      
+    - name : "Urban Areas & Population of the World"
+      image : "images/portfolio/urban.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map"
+      
+    - name : "Extreme Places on Earth"
+      image : "images/portfolio/extreme-places.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map"
+      
+    - name : "Berlin Road Names"
+      image : "images/portfolio/berlin-roads.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map"
+      
+    - name : "Global Land Borders"
+      image : "images/portfolio/global-neighbors.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map"
+      
+    - name : "Migration Patterns of White Storks"
+      image : "images/portfolio/stork-gili.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map"
+      
+    - name : "Cycling Paths of Berlin"
+      image : "images/portfolio/berlin-by-bike.png"
+      date : "2019  |  11"
+      client : "30DayMapChallenge"
+      category : "Map"
+      
+    - name : "Squirrel Sightings in NYC's Central Park"
+      image : "images/portfolio/squirrels.png"
+      date : "2019  |  10"
+      client : "TidyTuesday"
+      category : "Map"
+      
+    - name : "US School Diversity"
+      image : "images/portfolio/school-diversity.png"
+      date : "2019  |  10"
+      client : "TidyTuesday Challenge"
+      category : "Animation" 
+      
+    - name : "Ironman History"
+      image : "images/portfolio/ironman.png"
+      date : "2019  |  10"
+      client : "KaeoverMonday Challenge"
+      category : "Infographic" 
+      
+    - name : "Fuel Economy by Manufacturers"
+      image : "images/portfolio/mpg-highway.gif"
+      date : "2019  |  09"
+      client : "TidyTuesday Challenge"
       category : "Map" 
+      
+    - name : "Nuclear Explosions"
+      image : "images/portfolio/nuclear-stripes.png"
+      date : "2019  |  09"
+      client : "TidyTuesday Challenge"
+      category : "Data Art"  
       
     - name : "Cellphone Attachment and Distraction"
       image : "images/portfolio/phone-use.png"
@@ -189,11 +267,12 @@ portfolio:
       client : "MakeoverMonday Challenge"
       category : "Infographic" 
       
-    - name : "Fuel Economy by Manufacturers"
-      image : "images/portfolio/mpg-highway.gif"
-      date : "2019  |  10"
+    - name : "FIFA Women's World Cup Trajectories"
+      image : "images/portfolio/fifa-stellar.png"
+      date : "2019  |  07"
       client : "TidyTuesday Challenge"
-      category : "Animation" 
+      category : "Data Art"
+      
       
       
 
