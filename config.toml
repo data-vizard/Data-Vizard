@@ -106,7 +106,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 [[params.social]]
 icon = "fa-envelope" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "mailto:datavizard.berlin@gmail.com"
+link = "mailto:info@data-vizard.com"
 
 [[params.social]]
 icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/

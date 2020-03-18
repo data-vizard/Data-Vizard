@@ -41,12 +41,12 @@ fullscreen_nav:
 about:
   enable : true
   image : "images/backgrounds/cedric_round.png"
-  title : "DATA VISUALIZATION WIZARD: ANALYSIS & DESIGN WITH PASSION" 
+  title : "DATA VISUALIZATION WIZARD: ANALYSIS & DESIGN WITH PASSION"
   #title : "DATA-DRIVEN VISUALIZATIONS WITH PASSION" 
   #title : "SCIENTIST BY TRAINING, DESIGNER BY HEART"
   #title : "DATA VISUALIZATION DESIGN WITH PASSION"
   #content : "I am a computational ecologist by training and a data visualization specialist by heart with more than 8 years of hypothesis-driven research experience and strong skills in data transformation, statistical analysis and data visualization. For all the steps involved I use mainly `R`, the `tidyverse` and `ggplot2` to ensure high flexibility and a reproducible workflow.\n\nAs scientist, designer and consultant, my projects include static, animated and interactive visualizations, mapping techniques and infographic design to gain insights from complex data and communicate those findings to the world."
-  content : "My passion for design and my curiosity and experience as a scientist form a perfect match for beautiful visualizations based on robust data analyses. To ensure high flexibility and a reproducible workflow I use code-based approaches,mainly `R`, the `tidyverse` and `ggplot2`.\n\nMy projects include static, animated and interactive visualizations, mapping techniques and infographic design to gain insights from complex data and communicate those findings to the world."
+  content : "My passion for design and my curiosity and experience as a scientist form a perfect match for beautiful visualizations based on robust data analyses. To ensure high flexibility and a reproducible workflow I use code-based approaches, mainly `R`, the `tidyverse` and `ggplot2`.\n\nMy projects include static, animated and interactive visualizations, mapping techniques and infographic design to gain insights from complex data and communicate those findings to the world."
   # button   ## perfect mixture scientific research/stats/code + creativity/design
   button:
     enable : true
@@ -59,10 +59,10 @@ experience:
   title : "EXPERIENCES" 
   experience_list:
     # experience item loop
-    - name : "Data Visualization Designer"
+    - name : "Data Visualization Specialist"
       company : "Freelancing"
       duration : "(since 2020)"
-      content : "Data Visualisation, Data Analysis, Statistical Modeling, Consulting, Workshops"
+      content : "Data Analysis & Visualisation, Statistical Modeling, Consulting, Workshops"
       
     # experience item loop 
     - name : "Ph.D. Training / Scientific Researcher"
