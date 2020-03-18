@@ -70,7 +70,7 @@ URL = "#portfolio"
 weight = 3
 
 [[menu.main]]
-name = "Experience"
+name = "Experiences"
 URL = "#experience"
 weight = 4
 

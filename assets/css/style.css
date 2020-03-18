@@ -948,6 +948,25 @@ input:checked + label span:last-child {
   margin-top: 40px;
 }
 
+.experience h1 {
+  color: #6f6f6f;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 4px;
+  position: relative;
+  margin-bottom: -30px;
+}
+
+.experience h1:before {
+  content: "";
+  height: 5px;
+  background: #6f6f6f;
+  position: absolute;
+  top: -15px;
+  left: 46.5%;
+  right: 46.5%;
+}
+
 .experience h3,
 .skill h3 {
   color: #6f6f6f;
