@@ -951,8 +951,11 @@ input:checked + label span:last-child {
 .experience h3,
 .skill h3 {
   color: #6f6f6f;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 0px;
   letter-spacing: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .experience-chart {
@@ -1655,7 +1658,7 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 .submit {
-  width: 120px;
+  width: 190px;
   margin: auto;
   display: block;
   background: #fff9af;
