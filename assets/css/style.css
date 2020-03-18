@@ -954,7 +954,7 @@ input:checked + label span:last-child {
   font-weight: 700;
   letter-spacing: 4px;
   position: relative;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
 }
 
 .experience h1:before {
