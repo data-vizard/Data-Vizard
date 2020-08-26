@@ -32,8 +32,8 @@ hero:
 ####################### Full screen navigation #####################
 fullscreen_nav:
   enable : true 
-  bg_image : "images/backgrounds/DSC05097.jpg" 
-  first_name : "Data Visualization Specialist"
+  bg_image : "images/backgrounds/DSC05097.png" 
+  first_name : "Data Visualization Designer"
   last_name : "Cédric Scherer"
   
 
@@ -51,15 +51,15 @@ about:
   button:
     enable : true
     label : "DOWNLOAD MY CV" 
-    link : "#" # you can put your cv in static folder and give the path here.
+    link : "https://cedricscherer.netlify.app/files/Resume_CedricScherer_2020-01-01.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################  
 experience:
   enable : true
-  title : "EXPERIENCES" 
+  title : "EXPERIENCE" 
   experience_list:
     # experience item loop
-    - name : "Data Visualization Specialist"
+    - name : "Data Visualization Designer"
       company : "Freelancing"
       duration : "(since 2020)"
       content : "Data Analysis & Visualisation, Statistical Modeling, Consulting, Workshops"
@@ -68,45 +68,51 @@ experience:
     - name : "Ph.D. Training / Scientific Researcher"
       company : "Leibniz Institute for Zoo and Wildlife Research" 
       duration : "(since 2015)"
-      content : "Data Analysis, Statistical and Agent-Based Modeling, Data Visualization"
+      content : "Data Analysis, Statistical and Mechanistic Modeling, Data Visualization"
       
     # experience item loop
     - name : "Scientific Researcher" 
       company : "University of Potsdam"
       duration : "(2014-2015)"
-      content : "Data Analysis, Statistical and Agent-Based Modeling"
+      content : "Data Analysis, Statistical and Mechanistic Modeling"
       
     # experience item loop
     - name : "M.Sc. Studies"
       company : "University of Potsdam"
       duration : "(2011-2014)"
-      content : "Ecology, Evolution & Nature Conservation with a Specialization in Theoretical and Computational Ecology"
+      content : "Ecology, Evolution & Nature Conservation"
 
 
 ############################### Skill #################################
 skill:
   enable : true   
   title : "SKILLS"
-  skill_list: 
-    # skill item loop
-    - name : "Data Visualization"
-      parcentage : "75%"
-      perclabel : "6 years" 
-      
-    # skill item loop
-    - name : "Mapping & Cartography"
-      parcentage : "50%"
-      perclabel : "4 years"
-      
-    # skill item loop
-    - name : "Data Transformation"
+  skill_list: # skill item loop
+    - name : "Data Processing"
       parcentage : "100%"
-      perclabel : "8 years"
+      perclabel : "9 years"
       
     # skill item loop
     - name : "Statistical Analysis"
       parcentage : "100%"
-      perclabel : "8 years"
+      perclabel : "9 years"
+      
+    # skill item loop
+    - name : "Data Visualization"
+      parcentage : "100%"
+      perclabel : "9 years"
+    
+    # skill item loop
+    - name : "Mapping & Cartography"
+      parcentage : "55.5%"
+      perclabel : "5 years"
+    
+    # skill item loop
+    - name : "Data Journalism"
+      parcentage : "22.2%"
+      perclabel : "2 years"
+      
+    
 
 
 ################################### Service ##############################3
@@ -134,7 +140,7 @@ call_to_action:
   title : "NEED A SERVICE?"
   button:
     enable : true
-    label : "HIRE ME!"
+    label : "GET IN TOUCH!"
     link : "#contact"
 
 
