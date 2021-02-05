@@ -2,3 +2,9 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://datavizard.netlify.com/* https://www.data-vizard.com/:splat 301!
+
+
+https://data-vizard.netlify.com/*  https://cedricscherer.com/:splat  301!
+http://data-vizard.netlify.com/*   https://cedricscherer.com/:splat  301!
+https://data-vizard.com/*  https://cedricscherer.com/:splat  301!
+http://data-vizard.com/*   https://cedricscherer.com/:splat  301!
